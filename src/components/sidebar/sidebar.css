@@ -1,0 +1,64 @@
+.sidebar{
+    margin-top: 8px;
+flex: 2.5;
+height: calc(100vh-50px);
+background-color: white;
+
+overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(161, 165, 165);
+}
+
+.topbarimg1{
+    margin-left:5px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.categories{
+    padding: 2rem;
+    align-items: center;
+}
+.general{
+    margin-bottom: 10px;
+}
+.genraliocon{
+    flex:1;
+    margin-right: 15px;
+    padding: .5rem;
+    margin-bottom: -13px;
+}
+.app{
+    padding-bottom: 1rem;
+}
+.app:hover{
+    color: rgb(37, 126, 37);
+    background-color: rgb(196, 245, 226);
+}
+.sidebarname{
+    color: white;
+    padding-left: 3rem;
+font-size: 20px;
+
+}
+.management{
+    padding: 1rem;
+}
+.sidebarname p{
+    color: whitesmoke;
+    margin-top: -26px;
+
+}
+.sidebartop{
+    margin-right: 10px;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    background-color:lightgrey;
+    border-radius: 15px;
+}

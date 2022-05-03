@@ -1,0 +1,148 @@
+.container{
+    flex:8.5;
+    padding: 40px;
+}
+.topcontainer{
+    display: flex;
+}
+.welcome{
+padding-right: 60px;
+}
+button{
+    background-color:  rgb(21, 148, 70);
+    border: none;
+    width:70px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(196, 245, 226);
+}
+.welcome h1{
+    margin-top: 20px;
+}
+.welcome p{
+font-size: 15px;
+}
+.welcomebox{
+    display: flex;
+    border-radius: 15px;
+    padding: 30px;
+    flex:3.5;
+    background-color:  rgb(124, 245, 178);;
+}
+.cartoon{
+    padding: 0;
+    width:150px;
+    height:100px;
+    background-color: rgb(63, 243, 132);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 0 0);
+    
+}
+.cartoon img{
+    width:50px;
+    height: 100px;
+}
+.advertisement{
+    padding-left: 10px;
+flex:1.5;
+}
+.advertisement img{
+
+    border-radius: 15px;
+}
+
+.bottomcontainer{
+    padding-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.activeuser{
+    display: flex;
+    flex:1;
+    background-color: white;
+    box-shadow: 0 .3rem 1rem rgba(133, 130, 130, 0.5);
+    border-radius: 10px;
+}
+.totalinstall{
+    margin-left: 10px;
+   justify-content: space-between;
+    display: flex;
+    flex:1;
+    background-color: white;
+    box-shadow: 0 .3rem 1rem rgba(133, 130, 130, 0.5);
+    border-radius: 10px;
+}
+.totaldownload{
+    margin-left: 10px;
+    display: flex;
+    flex:1;
+    background-color: white;
+    box-shadow: 0 .3rem 1rem rgba(133, 130, 130, 0.5);
+    border-radius: 10px;
+}
+.activetext{
+    margin-left: 20px;
+}
+.barchart{
+    color:rgb(16, 243, 54);
+    margin-top: 40px;
+    padding-left: 50px;
+    width:50px;
+    height: 70px;
+    margin-left: 50px;
+}
+.barchart1{
+    color:rgb(79, 148, 226);
+    margin-top: 40px;
+    padding-left: 50px;
+    width:50px;
+    height: 70px;
+    margin-left: 50px;
+}
+.barchart2{
+    color:rgb(233, 68, 68);
+    margin-top: 40px;
+    padding-left: 50px;
+    width:50px;
+    height: 70px;
+    margin-left: 50px;
+}
+.totalinstall{
+    flex:1;
+}
+.totaldownload{
+    flex:1;
+}
+.lastbottom{
+    display:flex;
+    margin-top: 20px;
+}
+.cdownload{
+    display: flex;
+    flex:1;
+    background-color: white;
+    box-shadow: 0 .3rem 1rem rgba(133, 130, 130, 0.5);
+    border-radius: 10px;
+    flex:1.5;
+}
+.cdownload h3{
+    padding: 10px;
+}
+.cdownload img{
+    margin-left: 20px;
+    width:100px;
+    height: 150px;
+}
+.areadownload{
+    margin-left: 10px;
+    display: flex;
+    flex:1;
+    background-color: white;
+    box-shadow: 0 .3rem 1rem rgba(133, 130, 130, 0.5);
+    border-radius: 10px;
+    flex:2.5;
+}
+.areadownload h3{
+    padding-left:30px;
+    margin-top: 20px;
+}
